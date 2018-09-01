@@ -14,6 +14,10 @@ gulp build
 
 `Gulp` was used to compile and minify the `SCSS`.
 
+### Screenshot
+
+![](https://github.com/hsbyte/flex-columns/blob/master/.md/screenshot.jpg)
+
 ## License
 
 Released under the [MIT licence](http://opensource.org/licenses/MIT).
