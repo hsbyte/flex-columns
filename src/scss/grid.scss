@@ -1,0 +1,83 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.col-styling {
+  padding: 10px 0;
+  text-align: center;
+  background-color: grey;
+  color: white;
+  box-sizing: border-box;
+  border: 1px solid white;
+}
+
+/*
+  Author: Arnold Haban
+  Version: 1.0.0
+*/
+
+/* 
+Extra small devices 
+*/
+:root {
+    --contain-width: 100%;
+    --col-half-width: 100%;
+    --col-one-third-width: 100%;
+    --col-one-forth-width: 100%;
+    --col-one-fifth-width: 100%;
+    --col-one-sixth-width: 100%;
+}
+ 
+/* Small devices */
+@media (min-width: 544px) {  
+  :root {
+    --contain-width: 540px;
+    --col-half-width: calc(var(--contain-width)/2);
+    --col-one-third-width: calc(var(--contain-width)/3);
+    --col-one-forth-width: calc(var(--contain-width)/2);
+    --col-one-fifth-width: calc(var(--contain-width)/3);
+    --col-one-sixth-width: calc(var(--contain-width)/2);
+  }
+}
+ 
+/* Medium devices: navbar toggle breakpoint */
+@media (min-width: 768px) {
+  :root {
+    --contain-width: 720px;
+    --col-one-forth-width: calc(var(--contain-width)/4);
+  }
+}
+ 
+/* Large devices */
+@media (min-width: 992px) {     
+  :root {
+    --contain-width: 960px;
+    --col-one-fifth-width: calc(var(--contain-width)/5);
+    --col-one-sixth-width: calc(var(--contain-width)/3);
+  }
+}
+ 
+/* Extra large devices */
+@media (min-width: 1200px) {
+  :root {
+    --contain-width: 1140px;
+    --col-one-sixth-width: calc(var(--contain-width)/6);
+  }
+}
+
+.container {
+  width: var(--contain-width);
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.col-one { width: 100%; }
+.col-half { width: var(--col-half-width); }
+.col-one-third { width: var(--col-one-third-width); }
+.col-one-forth { width: var(--col-one-forth-width); }
+.col-one-fifth { width: var(--col-one-fifth-width); }
+.col-one-sixth { width: var(--col-one-sixth-width); }
