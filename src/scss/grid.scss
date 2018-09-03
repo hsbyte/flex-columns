@@ -57,24 +57,24 @@ body {
 }
 
 /* Extra small devices */
-@media (max-width: 543px) {
+@media (max-width: 543px) and (max-width: 543px) {
   .col-xs { @include col-shared(); }
 }
 
 /* Small devices */
-@media (min-width: 544px) {
+@media (min-width: 544px) and (max-width: 767px) {
   .container { max-width: 540px; }
   .col-s { @include col-shared(); }
 }
 
 /* Medium devices: navbar toggle breakpoint */
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 991px)  {
   .container { max-width: 720px; }
   .col-m { @include col-shared(); }
 }
 
 /* Large devices */
-@media (min-width: 992px) {
+@media (min-width: 992px) and (max-width: 1199px) {
   .container { max-width: 960px; }
   .col-l { @include col-shared(); }
 }
