@@ -15,14 +15,17 @@ gulp build
 `Gulp` was used to compile and minify the `SCSS`.
 
 ### Usage
-```code
+```html
+<div class="container">
     <div class="row">
-      <div class="col-xl-8 col-l-8 col-m-6 col-s-6 col-xs-12 col-styling">
-        col-xl-8, col-l-8, col-m-6, col-s-6, col-xs-12</div>
-      <div class="col-xl-4 col-l-4 col-m-6 col-s-6 col-xs-12 col-styling">
-        col-xl-4, col-l-4, col-m-6, col-s-6, col-xs-12</div>
+        <div class="col-xl-8 col-l-8 col-m-6 col-s-6 col-xs-12">
+            Hello
+        </div>
+        <div class="`col-xl-4 col-l-4 col-m-6 col-s-6 col-xs-12">
+            World
+        </div>
     </div>
-  </div>
+</div>
 ```
 ### Screenshot
 
