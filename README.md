@@ -1,7 +1,7 @@
 # Responsive Flex Columns
 ![](https://img.shields.io/badge/version-1.1.0-green.svg)
 
-A light weight simple column layout code using 'flex-box` to build responsive, mobile-first projects on the web.
+A light weight column layout code using 'flex-box` to build responsive, mobile-first projects on the web.
 
 ## Instructions
   
