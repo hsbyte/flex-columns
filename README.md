@@ -26,7 +26,7 @@ col-l-[#]   | Large size device (width: 992px to 1199px)
 col-m-[#]   | Medium size device (width: 768px to 991px)
 col-s-[#]   | Small size device (width: 544px to 767px)
 col-xs-[#]  | Extra small size device (width: < 543px)
-##### where [#] is the number of columns
+##### where [#] is the number of columns 1 to 12.
 -----
 
 ```html
