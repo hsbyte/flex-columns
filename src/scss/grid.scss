@@ -57,7 +57,7 @@ body {
 }
 
 /* Extra small devices */
-@media (max-width: 543px) and (max-width: 543px) {
+@media (max-width: 543px) {
   .col-xs { @include col-shared(); }
 }
 

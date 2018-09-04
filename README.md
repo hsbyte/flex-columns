@@ -17,16 +17,17 @@ gulp build
 ### Usage
 
 Must declare all `col` classes (`col-xl`, `col-l`, `col-m`, `col-s` and `col-xs`).
+
 ----
-| Syntax      | Description             |
-| ----------- | ----------------------- |
-| col-xl-[#]  | Extra large size device |
-| col-l-[#]   | Large size device       |
-| col-m-[#]   | Medium size device      |
-| col-s-[#]   | Small size device       |
-| col-xs-[#]  | Extra small size device |
-----
+| Syntax      | Description                                |
+| ----------- | ------------------------------------------ |
+| col-xl-[#]  | Extra large size device (width: < 1200px)  |
+| col-l-[#]   | Large size device (width: 992px to 1199px) |
+| col-m-[#]   | Medium size device (width: 768px to 991px) |
+| col-s-[#]   | Small size device (width: 544px to 767px)  |
+| col-xs-[#]  | Extra small size device (width: < 543px)   |
 where [#] is the number of columns
+----
 
 ```html
 <div class="container">
