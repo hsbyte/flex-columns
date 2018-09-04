@@ -15,6 +15,18 @@ gulp build
 `Gulp` was used to compile and minify the `SCSS`.
 
 ### Usage
+
+Must declare all `col` classes (`col-xl`, `col-l`, `col-m`, `col-s` and `col-xs`).
+
+#### Example
+    col-xl-[#]
+    col-l-[#]
+    col-m-[#]
+    col-s-[#]
+    col-xs-[#]
+
+    where [#] is the number of columns
+
 ```html
 <div class="container">
     <div class="row">
