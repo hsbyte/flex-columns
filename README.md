@@ -17,11 +17,12 @@ gulp build
 ### Usage
 
 Must declare all `col` classes (`col-xl`, `col-l`, `col-m`, `col-s` and `col-xs`).
+````
 | Syntax      | Description |
 | ----------- | ----------- |
 | Header      | Title       |
 | Paragraph   | Text        |
-
+````
 where [#] is the number of columns
 
 ```html
