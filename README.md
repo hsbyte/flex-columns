@@ -18,10 +18,13 @@ gulp build
 
 Must declare all `col` classes (`col-xl`, `col-l`, `col-m`, `col-s` and `col-xs`).
 ````
-| Syntax      | Description |
-| ----------- | ----------- |
-| col-xl-[#]      | Extra large size device       |
-| Paragraph   | Text        |
+| Syntax      | Description             |
+| ----------- | ----------------------- |
+| col-xl-[#]  | Extra large size device |
+| col-l-[#]   | Large size device       |
+| col-m-[#]   | Medium size device      |
+| col-s-[#]   | Small size device       |
+| col-xs-[#]  | Extra small size device |
 ````
 where [#] is the number of columns
 
