@@ -29,6 +29,8 @@ col-xs-[#]  | Extra small size device (width: < 543px)
 ##### where [#] is the number of columns 1 to 12.
 -----
 
+#### Example
+
 ```html
 <div class="container">
     <div class="row">
