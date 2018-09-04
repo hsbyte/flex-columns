@@ -20,7 +20,7 @@ Must declare all `col` classes (`col-xl`, `col-l`, `col-m`, `col-s` and `col-xs`
 ````
 | Syntax      | Description |
 | ----------- | ----------- |
-| Header      | Title       |
+| col-xl-[#]      | Extra large size device       |
 | Paragraph   | Text        |
 ````
 where [#] is the number of columns
